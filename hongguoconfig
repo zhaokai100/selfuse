@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
+ruleset=DIRECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/hongguorules
 
 ruleset=reject,[]FINAL
 
