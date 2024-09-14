@@ -1,10 +1,6 @@
 [custom]
 
-ruleset=reject,DOMAIN-KEYWORD,ads
-ruleset=reject,DOMAIN-KEYWORD,git
-ruleset=reject,DOMAIN-KEYWORD,liteapk
-ruleset=reject,DOMAIN-KEYWORD,youtube
-
+ruleset=REJECT,DOMAIN-KEYWORD,ads
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]
