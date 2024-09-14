@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=REJECT,https://github.com/zhaokai100/selfuse/raw/refs/heads/main/reject
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
