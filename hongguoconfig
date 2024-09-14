@@ -1,0 +1,12 @@
+[custom]
+
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
+
+ruleset=reject,[]FINAL
+
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+
+
+enable_rule_generator=true
+
+overwrite_original_rules=true
