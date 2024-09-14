@@ -1,9 +1,9 @@
 [custom]
 
-- DOMAIN-KEYWORD,ads,REJECT
-- DOMAIN-KEYWORD,git,REJECT
-- DOMAIN-KEYWORD,liteapk,REJECT
-- DOMAIN-KEYWORD,youtube,REJECT
+ruleset=reject,DOMAIN-KEYWORD,ads
+ruleset=reject,DOMAIN-KEYWORD,git
+ruleset=reject,DOMAIN-KEYWORD,liteapk
+ruleset=reject,DOMAIN-KEYWORD,youtube
 
 ruleset=🚀 节点选择,[]FINAL
 
