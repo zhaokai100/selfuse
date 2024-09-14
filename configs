@@ -2,9 +2,9 @@
 
 ruleset=REJECT,https://github.com/zhaokai100/selfuse/raw/refs/heads/main/reject
 
-ruleset=🚀 节点选择,[]FINAL
+ruleset=CURRENT NODE,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]
+custom_proxy_group=CURRENT NODE`select`[]
 
 enable_rule_generator=true
   
