@@ -1,6 +1,6 @@
 [custom]
 
-ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/sb
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
 
 ruleset=🚀 节点选择,[]FINAL
 
