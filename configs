@@ -4,7 +4,7 @@ ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/m
 
 ruleset=🚀 节点选择,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择[]DIRECT`.*
 
 
 enable_rule_generator=true
