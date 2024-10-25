@@ -1,1 +1,1 @@
-AND,((DOMAIN,github.com),(PROCESS-NAME-REGEX,.*telegram.*))
+AND,((DOMAIN,github.com),(PROCESS-NAME-REGEX,mark.via))
