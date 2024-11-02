@@ -1,0 +1,16 @@
+rules:
+- DOMAIN-KEYWORD,micro,REJECT
+- PROCESS-NAME,NvOcScanner.exe,REJECT
+- PROCESS-NAME,LegionZone.exe,REJECT
+- PROCESS-NAME,PotPlayerMini64.exe,REJECT
+- DOMAIN-KEYWORD,yfjc.xyz,🚀 节点选择
+- DOMAIN-KEYWORD,eckvarq8ld5k,🚀 节点选择
+- PROCESS-NAME,clash verge.exe,REJECT
+- DOMAIN-KEYWORD,client.wns.windows,REJECT
+- DOMAIN-KEYWORD,xeton,🚀 节点选择
+- PROCESS-NAME,chrome.exe,🚀 节点选择
+- PROCESS-NAME,steamwebhelper.exe,🚀 节点选择
+- PROCESS-NAME,spotify.exe,🚀 节点选择
+- PROCESS-NAME,kards-Win64-Shipping.exe,🚀 节点选择
+- DOMAIN-KEYWORD,git,REJECT
+- MATCH,PASS
