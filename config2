@@ -1,12 +1,13 @@
 [custom]
-
-ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
-
-ruleset=🚀 节点选择,[]FINAL
-
-custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
-
-
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=New Pipe 下载`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+rules:
+  - AND,((DOMAIN-KEYWORD,git),(PROCESS-NAME,mark.via)),🚀 节点选择
+  - DOMAIN-KEYWORD,git,REJECT
+  - DOMAIN-KEYWORD,liteapk,REJECT
+  - DOMAIN-KEYWORD,9mod.com,REJECT
+  - PROCESS-NAME,org.schabi.newpipe,New Pipe 下载
+  - MATCH,🚀 节点选择
 enable_rule_generator=true
-
 overwrite_original_rules=true
