@@ -1,4 +1,5 @@
 [custom]
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/proxy_process_1
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
 ruleset=New Pipe 下载,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/newpipe
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
