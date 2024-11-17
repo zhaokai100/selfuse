@@ -5,6 +5,6 @@ ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/m
 ruleset=低倍率,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/newpipe
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=低倍率`select`[]DIRECT`.*
-ruleset=低倍率,[]FINAL
+ruleset=🚀 节点选择,[]FINAL
 enable_rule_generator=true
 overwrite_original_rules=true
