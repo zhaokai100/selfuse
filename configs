@@ -1,15 +1,16 @@
 [custom]
 
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/udp
+ruleset=NOT-JAP,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/notjap
 ruleset=SELECTED,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/proxy_process_1
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
 ruleset=ONECENT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/newpipe
 ruleset=FOOSBER,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/discord
-ruleset=SELECTED,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/mark.vib
 ruleset=DIRECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/mark.direct
 custom_proxy_group=SELECTED`select`[]ONECENT`[]DIRECT`.*
 custom_proxy_group=FOOSBER`select`[]DIRECT`.*
 custom_proxy_group=ONECENT`select`[]DIRECT`.*
+custom_proxy_group=NOT-JAP`select`[]DIRECT`.*
 ruleset=SELECTED,[]FINAL
 enable_rule_generator=true
 overwrite_original_rules=true
