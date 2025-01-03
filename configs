@@ -6,7 +6,6 @@ ruleset=SELECTED,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
 ruleset=ONECENT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/newpipe
 ruleset=FOOSBER,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/discord
-ruleset=DIRECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/mark.direct
 custom_proxy_group=SELECTED`select`[]ONECENT`[]DIRECT`.*
 custom_proxy_group=FOOSBER`select`[]DIRECT`.*
 custom_proxy_group=ONECENT`select`[]DIRECT`.*
