@@ -1,5 +1,6 @@
 [custom]
 
+
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/udp
 ruleset=NOT-JAP,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/notjap
 ruleset=SELECTED,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/proxy_process_1
