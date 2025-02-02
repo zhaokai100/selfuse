@@ -11,7 +11,7 @@ custom_proxy_group=SELECTED`select`[]ONECENT`[]DIRECT`[]delay～test`.*
 custom_proxy_group=FOOSBER`select`[]DIRECT`[]delay～test`.*
 custom_proxy_group=ONECENT`select`[]DIRECT`[]delay～test`.*
 custom_proxy_group=NOT-JAP`select`[]DIRECT`[]delay～test`.*
-custom_proxy_group=delay～test`url-test`.*`http://www.gstatic.com/generate_204`60,,20,filter=(香港)
+custom_proxy_group=delay～test`url-test`.*`http://www.gstatic.com/generate_204`60,,20`香港
 ruleset=SELECTED,[]FINAL
 enable_rule_generator=true
 overwrite_original_rules=true
