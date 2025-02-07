@@ -5,3 +5,4 @@ PROCESS-NAME,com.reddit.frontpage
 PROCESS-NAME,com.twitter.android
 PROCESS-NAME,org.wikipedia
 PROCESS-NAME,org.telegram.messenger.web
+PROCESS-NAME,com.netflix.mediaclient
