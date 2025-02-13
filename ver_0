@@ -1,9 +1,8 @@
 [custom]
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/udp
-ruleset=NOT-JAP,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/notjap
-ruleset=SELECTED,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/proxy_process_1
+ruleset=BROWSER,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/BROWSER
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/reject
-ruleset=ONECENT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/newpipe
+ruleset=SPO_TUBE,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/SPO_TUBE
 ruleset=FOOSBER,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/main/discord
 custom_proxy_group=SELECTED`select`[]ONECENT`[]DIRECT`[]delay～test`.*
 custom_proxy_group=FOOSBER`select`[]DIRECT`[]delay～test`.*
