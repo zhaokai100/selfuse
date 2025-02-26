@@ -1,0 +1,333 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 台湾 ANL | IPv6 直连 | V1, server: tpe-ipv6.nodenet.cloud, port: 2096, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: tpe-ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 台湾 ANL | 专线 | V1, server: cn-mobile.nodenet.cloud, port: 28859, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: kbro-tpe.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 新加坡 OCI | IPv6 直连 | V1, server: oci-sg.ipv6.nodenet.cloud, port: 18811, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-sg.ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 新加坡 OCI | 专线 | V1, server: cn-mobile.nodenet.cloud, port: 14630, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oracle-sg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 Catixs | 联通 | V1, server: alt-mobile.nodenet.cloud, port: 19971, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: halo-tokyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 Softbank | IPv6 直连 | V1, server: sb-ipv6.nodenet.cloud, port: 8880, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: sb-ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 Softbank | 联通 | V1, server: cn-unicom.nodenet.cloud, port: 28877, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: sb-ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 柬埔寨 | IPv6 直连 | 0.5x | V1, server: metfone-ipv6.nodenet.cloud, port: 10880, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: metfone-ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 柬埔寨 | 专线 | V1, server: cn-mobile.nodenet.cloud, port: 20007, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: metfone-kh.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 澳大利亚 | IPv6 直连 | V1, server: oci-mel.ipv6.nodenet.cloud, port: 18080, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-mel.ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 澳大利亚 | 移动 | V1, server: alt-mobile.nodenet.cloud, port: 18347, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-mel.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 Aperture | IPv6 直连 | V1, server: apernet-v6.nodenet.cloud, port: 8880, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: apernet-v6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 Aperture | 联通 | V1, server: cn-unicom.nodenet.cloud, port: 11676, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: apernet-us.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 HGC | 专线 | V1, server: cn-mobile.nodenet.cloud, port: 20001, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: hgc-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 以色列 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 14040, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-il.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 俄罗斯 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 13091, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: gcore-ru.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 台湾 Hinet | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 20004, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: nero-tpe.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 土耳其 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 10711, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: boga-tr.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 巴基斯坦 | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 15790, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: virtury-pk.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 巴西 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 10387, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: letscloud-br.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 德国 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 11021, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: xeonserv-de.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 新加坡 ANL | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 15787, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: nero-sg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 新加坡 Yuwan | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 30004, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: micro-sg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 NTT | 联通 | V2, server: alt-mobile.nodenet.cloud, port: 28801, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: biglobe-tokyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 NURO | 联通 | V2, server: alt-mobile.nodenet.cloud, port: 28881, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: amzn-tokyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 日本 UCOM | 联通 | V2, server: alt-mobile.nodenet.cloud, port: 14837, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oracle-tokyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 瑞士 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 10182, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: marbell-ch.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 ANL | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 11675, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: anl-us.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 Frontier | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 11211, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: verizon-us.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 NetLab | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 18980, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: att-atlanta.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 OCI | IPv6 直连 | V2, server: oci-sjc.ipv6.nodenet.cloud, port: 18080, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-sjc.ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 美国 OCI | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 18437, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-sjc.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 英国 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 12080, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: strata-uk.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 阿根廷 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 11188, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: apernet-ar.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 韩国 | IPv6 直连 | V2, server: oci-kr.ipv6.nodenet.cloud, port: 18080, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oci-kr.ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 韩国 | 联通 | V2, server: cn-unicom.nodenet.cloud, port: 19941, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: oracle-kr.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 Akari | IPv6 直连 | V2, server: "2407:cdc0:b02a:1e::", port: 12906, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: akari-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 Akari | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 20009, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: akari-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 ICable | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 14621, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: icable-ddns.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 Lumen | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 12071, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: cmi-hk.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 PCCW | IPv6 直连 | V2, server: pccw-ipv6.nodenet.cloud, port: 8880, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: pccw-ipv6.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 PCCW | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 14620, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: hkt-ddns.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 马来西亚 | 专线 | V2, server: cn-mobile.nodenet.cloud, port: 11071, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: tmnet-my.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 京德 IPLC | 15x | 游戏 20M | V3, server: 106.75.24.145, port: 31022, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: xeonserv-de.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 沪日 IPLC | 10x | 200M | V3, server: sh-tokyo.sdwan.nodenet.cloud, port: 11676, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: sha-tyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 沪日 IPLC | 10x | ANL | 200M | V3, server: sh-tokyo.sdwan.nodenet.cloud, port: 11678, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: anl-tyo.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 沪美 IPLC | 15x | 游戏 20M | V3, server: 106.75.254.132, port: 31022, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: anl-us.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞台 IPLC | 10x | 游戏 20M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 11676, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: kbro-tpe.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞台 IPLC | 5x | 300M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 11680, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: nero-tpe.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞新 IPLC | 10x | 游戏 20M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 41022, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: nero-sg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞港 IPLC | 10x | ANL | 游戏 20M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 39609, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: akari-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞港 IPLC | 10x | 游戏 20M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 31022, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: dgm-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞港 IPLC | 5x | HKT | 300M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 11679, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: hkt-ddns.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 莞港 IPLC | 5x | ICABLE | 300M | V3, server: sz-hk.sdwan.nodenet.cloud, port: 11678, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: icable-ddns.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+  - {name: 香港 9929 | 5x | 100M | V3, server: apernet-hkg.nodenet.cloud, port: 8880, type: vmess, uuid: fa9035c4-1dca-34eb-838f-17086cecbf61, alterId: 0, cipher: auto, tls: true, servername: apernet-hkg.nodenet.cloud, network: grpc, grpc-opts: {grpc-service-name: webdav}, udp: true}
+proxy-groups:
+  - name: BROWSER
+    type: select
+    proxies:
+      - DIRECT
+      - 台湾 ANL | IPv6 直连 | V1
+      - 台湾 ANL | 专线 | V1
+      - 新加坡 OCI | IPv6 直连 | V1
+      - 新加坡 OCI | 专线 | V1
+      - 日本 Catixs | 联通 | V1
+      - 日本 Softbank | IPv6 直连 | V1
+      - 日本 Softbank | 联通 | V1
+      - 柬埔寨 | IPv6 直连 | 0.5x | V1
+      - 柬埔寨 | 专线 | V1
+      - 澳大利亚 | IPv6 直连 | V1
+      - 澳大利亚 | 移动 | V1
+      - 美国 Aperture | IPv6 直连 | V1
+      - 美国 Aperture | 联通 | V1
+      - 香港 HGC | 专线 | V1
+      - 以色列 | 联通 | V2
+      - 俄罗斯 | 联通 | V2
+      - 台湾 Hinet | 专线 | V2
+      - 土耳其 | 联通 | V2
+      - 巴基斯坦 | 专线 | V2
+      - 巴西 | 联通 | V2
+      - 德国 | 联通 | V2
+      - 新加坡 ANL | 专线 | V2
+      - 新加坡 Yuwan | 专线 | V2
+      - 日本 NTT | 联通 | V2
+      - 日本 NURO | 联通 | V2
+      - 日本 UCOM | 联通 | V2
+      - 瑞士 | 联通 | V2
+      - 美国 ANL | 联通 | V2
+      - 美国 Frontier | 联通 | V2
+      - 美国 NetLab | 联通 | V2
+      - 美国 OCI | IPv6 直连 | V2
+      - 美国 OCI | 联通 | V2
+      - 英国 | 联通 | V2
+      - 阿根廷 | 联通 | V2
+      - 韩国 | IPv6 直连 | V2
+      - 韩国 | 联通 | V2
+      - 香港 Akari | IPv6 直连 | V2
+      - 香港 Akari | 专线 | V2
+      - 香港 ICable | 专线 | V2
+      - 香港 Lumen | 专线 | V2
+      - 香港 PCCW | IPv6 直连 | V2
+      - 香港 PCCW | 专线 | V2
+      - 马来西亚 | 专线 | V2
+      - 京德 IPLC | 15x | 游戏 20M | V3
+      - 沪日 IPLC | 10x | 200M | V3
+      - 沪日 IPLC | 10x | ANL | 200M | V3
+      - 沪美 IPLC | 15x | 游戏 20M | V3
+      - 莞台 IPLC | 10x | 游戏 20M | V3
+      - 莞台 IPLC | 5x | 300M | V3
+      - 莞新 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 10x | ANL | 游戏 20M | V3
+      - 莞港 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 5x | HKT | 300M | V3
+      - 莞港 IPLC | 5x | ICABLE | 300M | V3
+      - 香港 9929 | 5x | 100M | V3
+  - name: SPO_TUBE
+    type: select
+    proxies:
+      - DIRECT
+      - 台湾 ANL | IPv6 直连 | V1
+      - 台湾 ANL | 专线 | V1
+      - 新加坡 OCI | IPv6 直连 | V1
+      - 新加坡 OCI | 专线 | V1
+      - 日本 Catixs | 联通 | V1
+      - 日本 Softbank | IPv6 直连 | V1
+      - 日本 Softbank | 联通 | V1
+      - 柬埔寨 | IPv6 直连 | 0.5x | V1
+      - 柬埔寨 | 专线 | V1
+      - 澳大利亚 | IPv6 直连 | V1
+      - 澳大利亚 | 移动 | V1
+      - 美国 Aperture | IPv6 直连 | V1
+      - 美国 Aperture | 联通 | V1
+      - 香港 HGC | 专线 | V1
+      - 以色列 | 联通 | V2
+      - 俄罗斯 | 联通 | V2
+      - 台湾 Hinet | 专线 | V2
+      - 土耳其 | 联通 | V2
+      - 巴基斯坦 | 专线 | V2
+      - 巴西 | 联通 | V2
+      - 德国 | 联通 | V2
+      - 新加坡 ANL | 专线 | V2
+      - 新加坡 Yuwan | 专线 | V2
+      - 日本 NTT | 联通 | V2
+      - 日本 NURO | 联通 | V2
+      - 日本 UCOM | 联通 | V2
+      - 瑞士 | 联通 | V2
+      - 美国 ANL | 联通 | V2
+      - 美国 Frontier | 联通 | V2
+      - 美国 NetLab | 联通 | V2
+      - 美国 OCI | IPv6 直连 | V2
+      - 美国 OCI | 联通 | V2
+      - 英国 | 联通 | V2
+      - 阿根廷 | 联通 | V2
+      - 韩国 | IPv6 直连 | V2
+      - 韩国 | 联通 | V2
+      - 香港 Akari | IPv6 直连 | V2
+      - 香港 Akari | 专线 | V2
+      - 香港 ICable | 专线 | V2
+      - 香港 Lumen | 专线 | V2
+      - 香港 PCCW | IPv6 直连 | V2
+      - 香港 PCCW | 专线 | V2
+      - 马来西亚 | 专线 | V2
+      - 京德 IPLC | 15x | 游戏 20M | V3
+      - 沪日 IPLC | 10x | 200M | V3
+      - 沪日 IPLC | 10x | ANL | 200M | V3
+      - 沪美 IPLC | 15x | 游戏 20M | V3
+      - 莞台 IPLC | 10x | 游戏 20M | V3
+      - 莞台 IPLC | 5x | 300M | V3
+      - 莞新 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 10x | ANL | 游戏 20M | V3
+      - 莞港 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 5x | HKT | 300M | V3
+      - 莞港 IPLC | 5x | ICABLE | 300M | V3
+      - 香港 9929 | 5x | 100M | V3
+  - name: LOW_DELAY
+    type: select
+    proxies:
+      - DIRECT
+      - 台湾 ANL | IPv6 直连 | V1
+      - 台湾 ANL | 专线 | V1
+      - 新加坡 OCI | IPv6 直连 | V1
+      - 新加坡 OCI | 专线 | V1
+      - 日本 Catixs | 联通 | V1
+      - 日本 Softbank | IPv6 直连 | V1
+      - 日本 Softbank | 联通 | V1
+      - 柬埔寨 | IPv6 直连 | 0.5x | V1
+      - 柬埔寨 | 专线 | V1
+      - 澳大利亚 | IPv6 直连 | V1
+      - 澳大利亚 | 移动 | V1
+      - 美国 Aperture | IPv6 直连 | V1
+      - 美国 Aperture | 联通 | V1
+      - 香港 HGC | 专线 | V1
+      - 以色列 | 联通 | V2
+      - 俄罗斯 | 联通 | V2
+      - 台湾 Hinet | 专线 | V2
+      - 土耳其 | 联通 | V2
+      - 巴基斯坦 | 专线 | V2
+      - 巴西 | 联通 | V2
+      - 德国 | 联通 | V2
+      - 新加坡 ANL | 专线 | V2
+      - 新加坡 Yuwan | 专线 | V2
+      - 日本 NTT | 联通 | V2
+      - 日本 NURO | 联通 | V2
+      - 日本 UCOM | 联通 | V2
+      - 瑞士 | 联通 | V2
+      - 美国 ANL | 联通 | V2
+      - 美国 Frontier | 联通 | V2
+      - 美国 NetLab | 联通 | V2
+      - 美国 OCI | IPv6 直连 | V2
+      - 美国 OCI | 联通 | V2
+      - 英国 | 联通 | V2
+      - 阿根廷 | 联通 | V2
+      - 韩国 | IPv6 直连 | V2
+      - 韩国 | 联通 | V2
+      - 香港 Akari | IPv6 直连 | V2
+      - 香港 Akari | 专线 | V2
+      - 香港 ICable | 专线 | V2
+      - 香港 Lumen | 专线 | V2
+      - 香港 PCCW | IPv6 直连 | V2
+      - 香港 PCCW | 专线 | V2
+      - 马来西亚 | 专线 | V2
+      - 京德 IPLC | 15x | 游戏 20M | V3
+      - 沪日 IPLC | 10x | 200M | V3
+      - 沪日 IPLC | 10x | ANL | 200M | V3
+      - 沪美 IPLC | 15x | 游戏 20M | V3
+      - 莞台 IPLC | 10x | 游戏 20M | V3
+      - 莞台 IPLC | 5x | 300M | V3
+      - 莞新 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 10x | ANL | 游戏 20M | V3
+      - 莞港 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 5x | HKT | 300M | V3
+      - 莞港 IPLC | 5x | ICABLE | 300M | V3
+      - 香港 9929 | 5x | 100M | V3
+  - name: BIG_WIDTH
+    type: select
+    proxies:
+      - DIRECT
+      - 台湾 ANL | IPv6 直连 | V1
+      - 台湾 ANL | 专线 | V1
+      - 新加坡 OCI | IPv6 直连 | V1
+      - 新加坡 OCI | 专线 | V1
+      - 日本 Catixs | 联通 | V1
+      - 日本 Softbank | IPv6 直连 | V1
+      - 日本 Softbank | 联通 | V1
+      - 柬埔寨 | IPv6 直连 | 0.5x | V1
+      - 柬埔寨 | 专线 | V1
+      - 澳大利亚 | IPv6 直连 | V1
+      - 澳大利亚 | 移动 | V1
+      - 美国 Aperture | IPv6 直连 | V1
+      - 美国 Aperture | 联通 | V1
+      - 香港 HGC | 专线 | V1
+      - 以色列 | 联通 | V2
+      - 俄罗斯 | 联通 | V2
+      - 台湾 Hinet | 专线 | V2
+      - 土耳其 | 联通 | V2
+      - 巴基斯坦 | 专线 | V2
+      - 巴西 | 联通 | V2
+      - 德国 | 联通 | V2
+      - 新加坡 ANL | 专线 | V2
+      - 新加坡 Yuwan | 专线 | V2
+      - 日本 NTT | 联通 | V2
+      - 日本 NURO | 联通 | V2
+      - 日本 UCOM | 联通 | V2
+      - 瑞士 | 联通 | V2
+      - 美国 ANL | 联通 | V2
+      - 美国 Frontier | 联通 | V2
+      - 美国 NetLab | 联通 | V2
+      - 美国 OCI | IPv6 直连 | V2
+      - 美国 OCI | 联通 | V2
+      - 英国 | 联通 | V2
+      - 阿根廷 | 联通 | V2
+      - 韩国 | IPv6 直连 | V2
+      - 韩国 | 联通 | V2
+      - 香港 Akari | IPv6 直连 | V2
+      - 香港 Akari | 专线 | V2
+      - 香港 ICable | 专线 | V2
+      - 香港 Lumen | 专线 | V2
+      - 香港 PCCW | IPv6 直连 | V2
+      - 香港 PCCW | 专线 | V2
+      - 马来西亚 | 专线 | V2
+      - 京德 IPLC | 15x | 游戏 20M | V3
+      - 沪日 IPLC | 10x | 200M | V3
+      - 沪日 IPLC | 10x | ANL | 200M | V3
+      - 沪美 IPLC | 15x | 游戏 20M | V3
+      - 莞台 IPLC | 10x | 游戏 20M | V3
+      - 莞台 IPLC | 5x | 300M | V3
+      - 莞新 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 10x | ANL | 游戏 20M | V3
+      - 莞港 IPLC | 10x | 游戏 20M | V3
+      - 莞港 IPLC | 5x | HKT | 300M | V3
+      - 莞港 IPLC | 5x | ICABLE | 300M | V3
+      - 香港 9929 | 5x | 100M | V3
+rules:
+  - PROCESS-NAME,mark.via,BROWSER
+  - PROCESS-NAME,com.kiwibrowser.browser,BROWSER
+  - PROCESS-NAME,com.android.chrome,BROWSER
+  - PROCESS-NAME,org.mozilla.firefox,BROWSER
+  - DOMAIN-KEYWORD,git,REJECT
+  - DOMAIN-KEYWORD,liteapk,REJECT
+  - DOMAIN-KEYWORD,9mod.com,REJECT
+  - PROCESS-NAME,com.spotify.music,SPO_TUBE
+  - PROCESS-NAME,de.tutao.tutanota,LOW_DELAY
+  - PROCESS-NAME,com.discord,LOW_DELAY
+  - PROCESS-NAME,com.instagram.android,LOW_DELAY
+  - PROCESS-NAME,ch.protonmail.android,LOW_DELAY
+  - PROCESS-NAME,com.reddit.frontpage,LOW_DELAY
+  - PROCESS-NAME,org.telegram.messenger.web,LOW_DELAY
+  - PROCESS-NAME,com.twitter.android,LOW_DELAY
+  - PROCESS-NAME,org.wikipedia,LOW_DELAY
+  - PROCESS-NAME,app.revanced.android.gms,LOW_DELAY
+  - PROCESS-NAME,com.valvesoftware.android.steam.community,LOW_DELAY
+  - PROCESS-NAME,com.android1939.kards,LOW_DELAY
+  - PROCESS-NAME,com.android.vending,LOW_DELAY
+  - PROCESS-NAME,com.google.android.gms,LOW_DELAY
+  - PROCESS-NAME,com.google.android.apps.bard,LOW_DELAY
+  - PROCESS-NAME,com.google.android.gm,LOW_DELAY
+  - PROCESS-NAME,com.google.android.apps.authenticator2,LOW_DELAY
+  - PROCESS-NAME,com.google.android.apps.magazines,LOW_DELAY
+  - PROCESS-NAME,com.valvesoftware.android.steam.friendsui,LOW_DELAY
+  - PROCESS-NAME,org.schabi.newpipe,BIG_WIDTH
+  - PROCESS-NAME,com.zhiliaoapp.musically,BIG_WIDTH
+  - PROCESS-NAME,com.microsoft.emmx,BIG_WIDTH
+  - PROCESS-NAME,com.netflix.mediaclient,BIG_WIDTH
+  - PROCESS-NAME,com.google.android.googlequicksearchbox,BIG_WIDTH
+  - PROCESS-NAME,app.rvx.android.youtube,BIG_WIDTH
+  - MATCH,BROWSER
