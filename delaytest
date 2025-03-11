@@ -1,0 +1,16 @@
+[custom]
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/udp
+ruleset=BROWSER,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/BROWSER
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/reject
+ruleset=SPO_TUBE,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/SPO_TUBE
+ruleset=LOW_DELAY_T,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/LOW_DELAY_2
+ruleset=LOW_DELAY,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/LOW_DELAY
+ruleset=BIG_WIDTH,https://raw.githubusercontent.com/zhaokai100/selfuse/refs/heads/branch_configs/BIG_WIDTH
+ruleset=BROWSER,[]FINAL
+custom_proxy_group=BROWSER`select`[]DIRECT`.*
+custom_proxy_group=SPO_TUBE`select`[]DIRECT`.*
+custom_proxy_group=LOW_DELAY`select`[]DIRECT`.*
+custom_proxy_group=LOW_DELAY_T`select`[]DIRECT`.*
+custom_proxy_group=BIG_WIDTH`select`[]DIRECT`.*
+enable_rule_generator=true
+overwrite_original_rules=true
