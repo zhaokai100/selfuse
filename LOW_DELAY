@@ -3,4 +3,5 @@ PROCESS-NAME,com.reddit.frontpage
 PROCESS-NAME,com.twitter.android
 PROCESS-NAME,app.revanced.android.gms
 PROCESS-NAME,com.android1939.kards
+PROCESS-NAME,com.valvesoftware.android.steam.community
 PROCESS-NAME,com.google.android.apps.magazines
