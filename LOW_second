@@ -1,5 +1,6 @@
 PROCESS-NAME,de.tutao.tutanota
 PROCESS-NAME,com.discord
+PROCESS-NAME,com.spotify.music
 PROCESS-NAME,ch.protonmail.android
 PROCESS-NAME,org.telegram.messenger.web
 PROCESS-NAME,com.google.android.gms
