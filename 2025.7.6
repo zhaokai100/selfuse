@@ -1,2 +1,22 @@
+[custom]
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_01
+ruleset=日本ではありません,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_0101
+ruleset=ドライブイン,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_02
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_03
+ruleset=You Tubeダウンロード,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_04
+ruleset=インスタントメッセージング,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_05
+ruleset=非チャットソフトウェア,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_06
+ruleset=広い帯域幅,https://raw.githubusercontent.com/zhaokai100/flclash001/refs/heads/main/B_07
+ruleset=ドライブイン,[]FINAL
+custom_proxy_group=ドライブイン`select`.*
+custom_proxy_group=非チャットソフトウェア`select`.*
+custom_proxy_group=広い帯域幅`select`.*
+custom_proxy_group=You Tubeダウンロード`select`.*
+custom_proxy_group=インスタントメッセージング`select`.*
+custom_proxy_group=日本ではありません`select`.*
+
 proxy-server-nameserver:
     - https://one.one.one.one/dns-query
+
+enable_rule_generator=true
+overwrite_original_rules=true
